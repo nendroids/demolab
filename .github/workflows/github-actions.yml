@@ -1,0 +1,11 @@
+name: Github Actions
+
+on:
+  workflow_dispatch:  # Enables manual run
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f3002742@ds.study.iitm.ac.in
+        run: echo "done"
