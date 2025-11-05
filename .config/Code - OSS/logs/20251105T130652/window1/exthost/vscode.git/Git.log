@@ -1,0 +1,117 @@
+2025-11-05 13:06:58.652 [info] [main] Log level: Info
+2025-11-05 13:06:58.652 [info] [main] Validating found git in: "git"
+2025-11-05 13:06:58.652 [info] [main] Using git "2.51.2" from "git"
+2025-11-05 13:06:58.652 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-05 13:06:58.652 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-05 13:06:58.652 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.656 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:06:58.656 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.659 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:06:58.659 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.662 [info] > git rev-parse --show-toplevel [0ms]
+2025-11-05 13:06:58.662 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.665 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:06:58.665 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.668 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:06:58.668 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.671 [info] > git rev-parse --show-toplevel [0ms]
+2025-11-05 13:06:58.671 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.674 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:06:58.674 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.677 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:06:58.677 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.679 [info] > git rev-parse --show-toplevel [0ms]
+2025-11-05 13:06:58.679 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:06:58.680 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-05 13:07:25.232 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:07:25.232 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:07:25.626 [info] > git rev-parse --show-toplevel [1ms]
+2025-11-05 13:07:25.626 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-11-05 13:07:48.149 [info] > git rev-parse --show-toplevel [2ms]
+2025-11-05 13:07:48.157 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [4ms]
+2025-11-05 13:07:48.169 [info] [Model][openRepository] Opened repository (path): /home/main/demolab
+2025-11-05 13:07:48.169 [info] [Model][openRepository] Opened repository (real path): /home/main/demolab
+2025-11-05 13:07:48.169 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-05 13:07:48.174 [info] > git config --get commit.template [0ms]
+2025-11-05 13:07:48.177 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-05 13:07:48.179 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/main/demolab/.git/refs/remotes/origin/main'
+2025-11-05 13:07:48.180 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-05 13:07:48.185 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-05 13:07:48.192 [info] > git status -z -uall [10ms]
+2025-11-05 13:07:48.206 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-11-05 13:07:48.209 [info] > git config --get commit.template [3ms]
+2025-11-05 13:07:48.209 [info] > git config --get --local branch.main.vscode-merge-base [1ms]
+2025-11-05 13:07:48.209 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-05 13:07:48.227 [info] > git reflog main --grep-reflog=branch: Created from *. [16ms]
+2025-11-05 13:07:48.230 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-11-05 13:07:48.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-11-05 13:07:48.235 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/main/demolab/.git/refs/remotes/origin/main'
+2025-11-05 13:07:48.235 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [3ms]
+2025-11-05 13:07:48.241 [info] > git rev-parse refs/remotes/origin/main [6ms]
+2025-11-05 13:07:48.247 [info] > git config --add --local branch.main.vscode-merge-base origin/main [7ms]
+2025-11-05 13:07:48.247 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms] (cancelled)
+2025-11-05 13:07:48.251 [info] > git status -z -uall [7ms] (cancelled)
+2025-11-05 13:07:48.251 [info] > git config --get commit.template [1ms]
+2025-11-05 13:07:48.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-05 13:07:48.258 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/main/demolab/.git/refs/remotes/origin/main'
+2025-11-05 13:07:48.259 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-05 13:07:48.263 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-05 13:07:48.268 [info] > git status -z -uall [8ms]
+2025-11-05 13:07:48.274 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-11-05 13:07:48.276 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2025-11-05 13:07:48.279 [info] > git diff --name-status -z --diff-filter=ADMR 8c4e97afbdfc516eaee63f88def95ca69954bf7e...refs/remotes/origin/main [3ms]
+2025-11-05 13:07:48.279 [info] > git diff --name-status -z --diff-filter=ADMR 8c4e97afbdfc516eaee63f88def95ca69954bf7e...refs/remotes/origin/main [1ms]
+2025-11-05 13:07:48.691 [info] > git check-ignore -v -z --stdin [1ms]
+2025-11-05 13:07:54.444 [info] > git check-ignore -v -z --stdin [1ms]
+2025-11-05 13:08:00.619 [info] > git show --textconv :.dotfiles [6ms]
+2025-11-05 13:08:00.624 [info] > git ls-files --stage -- .dotfiles [5ms]
+2025-11-05 13:08:00.628 [info] > git hash-object -t tree /dev/null [5ms]
+2025-11-05 13:08:00.628 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/main/demolab/.dotfiles.git?%7B%22path%22%3A%22%2Fhome%2Fmain%2Fdemolab%2F.dotfiles%22%2C%22ref%22%3A%22%22%7D
+2025-11-05 13:08:00.630 [info] > git hash-object -t tree /dev/null [3ms]
+2025-11-05 13:08:00.631 [warning] [GitFileSystemProvider][stat] File not found - git:/home/main/demolab/.dotfiles.git?%7B%22path%22%3A%22%2Fhome%2Fmain%2Fdemolab%2F.dotfiles%22%2C%22ref%22%3A%22%22%7D
+2025-11-05 13:08:00.889 [info] > git check-ignore -v -z --stdin [1ms]
+2025-11-05 13:08:01.396 [info] > git config --get commit.template [4ms]
+2025-11-05 13:08:01.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-05 13:08:01.401 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/main/demolab/.git/refs/remotes/origin/main'
+2025-11-05 13:08:01.402 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-05 13:08:01.411 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-05 13:08:01.421 [info] > git status -z -uall [16ms]
+2025-11-05 13:08:56.794 [info] > git config --get commit.template [4ms]
+2025-11-05 13:08:56.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-05 13:08:56.801 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/main/demolab/.git/refs/remotes/origin/main'
+2025-11-05 13:08:56.802 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2025-11-05 13:08:56.812 [info] > git status -z -uall [6ms]
+2025-11-05 13:08:56.813 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-05 13:09:26.161 [info] > git config --get commit.template [1ms]
+2025-11-05 13:09:26.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-05 13:09:26.166 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/main/demolab/.git/refs/remotes/origin/main'
+2025-11-05 13:09:26.167 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2025-11-05 13:09:26.171 [info] > git status -z -uall [3ms]
+2025-11-05 13:09:26.171 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-05 13:09:26.176 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-11-05 13:09:26.180 [info] > git diff --name-status -z --diff-filter=ADMR 8c4e97afbdfc516eaee63f88def95ca69954bf7e...refs/remotes/origin/main [2ms]
+2025-11-05 13:11:08.908 [info] > git config --get commit.template [5ms]
+2025-11-05 13:11:08.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2025-11-05 13:11:08.920 [info] > git status -z -uall [6ms]
+2025-11-05 13:11:08.921 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2025-11-05 13:11:08.926 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2025-11-05 13:11:08.931 [info] > git diff --name-status -z --diff-filter=ADMR 828b9737c9171ab80e4015ee59e8090fa781d637...refs/remotes/origin/main [2ms]
+2025-11-05 13:11:57.730 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-05 13:12:36.154 [info] > git check-ignore -v -z --stdin [2ms]
+2025-11-05 13:12:38.906 [info] > git config --get commit.template [3ms]
+2025-11-05 13:12:38.907 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2025-11-05 13:12:38.917 [info] > git status -z -uall [5ms]
+2025-11-05 13:12:38.917 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2025-11-05 13:13:08.504 [info] > git check-ignore -v -z --stdin [1ms]
