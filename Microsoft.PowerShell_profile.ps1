@@ -10,3 +10,5 @@ if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
 
 }
 @include bstd_bits.h - Bstandard (BSTD) bit manipulation utilities for efficient compression and decompression.
+
+#include bstd_bits.h : @brief Bstandard (BSTD) bit manipulation utilities for efficient compression and decompression.
